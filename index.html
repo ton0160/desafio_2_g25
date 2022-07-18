@@ -1,49 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafío 2</title>
-    <link href="assets/css/reset.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
     <header class="header">
-        <h1><span>Deco</span>Plantas</h1>
-        <h2>Plantas decorativas para tu hogar</h2>
+      <h1><span>Deco</span>Plantas</h1>
+      <h2>Plantas decorativas para tu hogar</h2>
     </header>
     <main>
-        <section>
-            <div class="cont_img">
-                <img src="assets/imgs/1.jpg" alt="imagen 1">
-            </div>
-            <div class="cont_text">
-                <p>Planta 1</p>
-                <p>$9.900</p>
-            </div>
-        </section>
-        <section>
-            <div class="cont_img">
-                <img src="assets/imgs/2.jpg" alt="imagen 2">
-            </div>
-            <div class="cont_text">
-                <p>Planta 2</p>
-                <p>$12.700</p>
-            </div>
-        </section>
-        <section>
-            <div class="cont_img">
-                <img src="assets/imgs/3.jpg" alt="imagen 3">
-            </div>
-            <div class="cont_text">
-                <p>Planta 3</p>
-                <p>$11.950</p>
-            </div>
-        </section>
+      <section>
+        <div class="cont_img">
+          <img src="assets/imgs/1.jpg" alt="imagen 1" />
+        </div>
+        <div class="cont_text">
+          <p>Planta 1</p>
+          <p>$9.900</p>
+        </div>
+      </section>
+      <section>
+        <div class="cont_img">
+          <img src="assets/imgs/2.jpg" alt="imagen 2" />
+        </div>
+        <div class="cont_text">
+          <p>Planta 2</p>
+          <p>$12.700</p>
+        </div>
+      </section>
+      <section>
+        <div class="cont_img">
+          <img src="assets/imgs/3.jpg" alt="imagen 3" />
+        </div>
+        <div class="cont_text">
+          <p>Planta 3</p>
+          <p>$11.950</p>
+        </div>
+      </section>
     </main>
+
+    <!-- inicio formulario de contacto -->
+    <div class="container py-4">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Correo de contacto</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Nunca compartiremos tu correo
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Contraseña</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="d-grid gap-2 col-1 mx-auto">
+          <button type="submit" class="btn btn-outline-success  ">
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- fin formulario de contacto -->
+
     <footer>
-        <p>@Decoplantas</p>
+      <p>@Decoplantas</p>
     </footer>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
